@@ -23,7 +23,7 @@ elif l==3:
     month=int(sys.argv[1])
     year=int(sys.argv[2])
 else:
-    print("usageL cal.py [month] year")
+    print("usage: cal.py [month] [year]")
     sys.exit(1)
 
 c = calendar.TextCalendar()
